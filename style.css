@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 15px;
+  background-color: azure;
+}
+.container .input-area {
+  width: 100%;
+  background: #eee;
+  padding: 10px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.container .input-area input {
+  width: calc(100% - 100px);
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  /* z-index: 1; */
+  position: relative;
+  border: 3px solid #eee;
+  outline: none;
+}
+.container .input-area .fetch {
+  width: 90px;
+  border: none;
+  background: blueviolet;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  left: -25px;
+  border: 3px solid #eee;
+  cursor: pointer;
+}
+
+.container .repos-area .row {
+  padding: 10px;
+  background: white;
+  margin-top: 7px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 6px;
+}
+
+.container .repos-area .row .delete {
+  border: none;
+  padding: 7px;
+  background: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.container .repos-area .row .controle {
+  display: flex;
+  gap: 15px;
+}
+.container .repos-area .row .visit {
+  border: none;
+  padding: 7px;
+  background: blueviolet;
+  color: white;
+  font-weight: bold;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  cursor: pointer;
+}
